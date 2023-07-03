@@ -1,0 +1,64 @@
+.projects-container {
+  width: 80vw;
+  height: 100vh;
+  display: flex;
+
+  justify-content: center;
+
+  flex-direction: column;
+  margin: 1rem 0;
+}
+.slick-slide {
+  display: flex;
+}
+.each {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.slide-image {
+  width: 18rem;
+  height: 12rem;
+  border-radius: 20px;
+}
+.project-desc {
+  margin: 3rem;
+  word-wrap: break-word;
+}
+
+.slick-prev.slick-next {
+  color: red;
+  border: none;
+  outline: none;
+  background-color: red;
+}
+.portfolio-title {
+  color: rgb(86, 185, 200);
+  position: relative;
+  top: -17%;
+  font-size: 3rem;
+}
+.text-color {
+  color: rgb(165, 17, 31);
+}
+.live-link {
+  background-color: skyblue;
+  padding: 1rem 2rem;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+  .slide-image {
+    width: 13rem;
+    height: 8rem;
+    border-radius: 20px;
+  }
+}

@@ -1,0 +1,38 @@
+.footer {
+  background: linear-gradient(black, #327aad);
+
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  padding: 3rem 0;
+  text-align: center;
+  height: 70vh;
+}
+
+.my-name {
+  color: rgba(5, 164, 196, 0.929);
+}
+.btn-section {
+  position: relative;
+  bottom: -15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.linked-icon {
+  font-size: 2rem;
+}
+.linked-icon:hover {
+}
+.instagram-icon {
+  font-size: 2rem;
+}
+.git-icon {
+  font-size: 2rem;
+}
+a:hover {
+  color: rgb(0, 251, 255);
+}
+.icon {
+  color: rgb(9, 5, 5);
+}

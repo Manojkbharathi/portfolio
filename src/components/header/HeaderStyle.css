@@ -1,0 +1,48 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-toggle {
+  position: relative;
+  left: 90%;
+  top: 1.5rem;
+
+  color: white;
+  background: transparent;
+  font-size: 2rem;
+}
+
+.head {
+  position: relative;
+  color: red;
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+}
+.name {
+  position: relative;
+  text-align: center;
+}
+.profile {
+  max-width: 50%;
+  position: relative;
+  filter: grayscale(60%);
+  top: -12%;
+}
+@media screen and (min-width: 600px) {
+  .home {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .profile {
+    opacity: 80%;
+    max-width: 30%;
+  }
+  .navbar-toggle {
+    display: none;
+  }
+}
