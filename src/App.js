@@ -19,8 +19,12 @@ const App = () => {
   };
   return (
     <>
-      <Header showNavbar={showNavbar} />
-      <Navbar isShowNavbar={isShowNavbar} closeNavbar={closeNavbar} />
+      <Header />
+      <Navbar
+        isShowNavbar={isShowNavbar}
+        closeNavbar={closeNavbar}
+        showNavbar={showNavbar}
+      />
       <Details />
       <Skills />
       <SimpleSlider />

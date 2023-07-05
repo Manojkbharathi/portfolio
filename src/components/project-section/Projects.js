@@ -3,7 +3,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
 import React from 'react';
-import { people } from '../../data';
+import { projects } from '../../data';
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -84,7 +84,7 @@ const SimpleSlider = () => {
       </h2>
 
       <Slider {...settings}>
-        {people.map(({ image, quote, github, LiveDemo, title }) => (
+        {projects.map(({ image, quote, github, LiveDemo, title }) => (
           <div className='slide'>
             <div className='each'>
               <h2 className='project-title'>{title}</h2>

@@ -17,7 +17,7 @@ export const details = [
     desc: " I recently graduated with a Bachelor's degree as a B.sc.Apparel Merchandising in 2021 and also I'm currently pursuing my React Js web developer course. I am now looking to launch my career as a React Js Developer.while my training in the React Js has equipped me with the ability to develop innovative web applications.",
   },
 ];
-export const people = [
+export const projects = [
   {
     id: 1,
     image: IMG1,
@@ -69,5 +69,20 @@ export const people = [
       'Marfa af yr 3 wolf moon kogi, readymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag. ',
     github: '',
     LiveDemo: '',
+  },
+];
+
+export const javaScript = [
+  {
+    links: 'https://manojkbharathi.github.io/memory-game/',
+
+    links: 'https://manojkbharathi.github.io/find-triangle-type/',
+    links: 'https://manojkbharathi.github.io/seat-booking/',
+
+    links: 'https://manojkbharathi.github.io/product-system/',
+    links: 'https://manojkbharathi.github.io/snake-game/',
+    links: 'https://manojkbharathi.github.io/model/',
+    links: 'https://manojkbharathi.github.io/kanban-board/',
+    links: 'https://manojkbharathi.github.io/pig-game/',
   },
 ];

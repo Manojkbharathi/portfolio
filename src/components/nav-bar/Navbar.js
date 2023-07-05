@@ -1,10 +1,14 @@
 import React from 'react';
 import './NavbarStyle.css';
+import { FaBars } from 'react-icons/fa';
 
 import { pageLinks } from '../../data';
-const Navbar = ({ isShowNavbar, closeNavbar }) => {
+const Navbar = ({ isShowNavbar, closeNavbar, showNavbar }) => {
   return (
-    <div>
+    <div className='nav'>
+      <button className='navbar-toggle' type='button' onClick={showNavbar}>
+        <FaBars />
+      </button>
       <aside className='nav-container'>
         <ul className={`${isShowNavbar ? 'navbar show-navbar' : 'navbar'}`}>
           <button className='close-btn' onClick={closeNavbar}>

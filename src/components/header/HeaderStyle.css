@@ -6,15 +6,6 @@
   justify-content: center;
   align-items: center;
 }
-.navbar-toggle {
-  position: relative;
-  left: 90%;
-  top: 1.5rem;
-
-  color: white;
-  background: transparent;
-  font-size: 2rem;
-}
 
 .head {
   position: relative;
@@ -33,6 +24,7 @@
   filter: grayscale(60%);
   top: -12%;
 }
+
 @media screen and (min-width: 600px) {
   .home {
     display: flex;
@@ -41,8 +33,5 @@
   .profile {
     opacity: 80%;
     max-width: 30%;
-  }
-  .navbar-toggle {
-    display: none;
   }
 }

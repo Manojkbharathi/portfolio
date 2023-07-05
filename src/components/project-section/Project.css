@@ -36,8 +36,11 @@
 .portfolio-title {
   color: rgb(86, 185, 200);
   position: relative;
-  top: -17%;
+  top: -14%;
   font-size: 3rem;
+}
+.project-title {
+  margin-bottom: 2rem;
 }
 .text-color {
   color: rgb(165, 17, 31);

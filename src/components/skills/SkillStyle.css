@@ -34,6 +34,63 @@ button {
   background-color: transparent;
 }
 
+p:hover {
+  background-color: aquamarine;
+}
+.hover-container {
+  position: relative;
+}
+
+.skill-links {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #144956;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  gap: 1.5rem;
+  padding: 2rem 0.5rem;
+  height: 15rem;
+  overflow-y: scroll;
+}
+.skill-links a {
+  color: rgb(10, 156, 178);
+}
+
+.hover-container:hover .skill-links {
+  display: flex;
+  flex-direction: column;
+}
+.animate-character {
+  margin: 1rem;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 20px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .skill-container {
     display: grid;
