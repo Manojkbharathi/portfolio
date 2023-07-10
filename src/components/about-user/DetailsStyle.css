@@ -12,6 +12,9 @@
 }
 .desc {
   font-size: 20px;
+  position: relative;
+
+  margin: 3rem 10rem;
 }
 
 .about-content {
@@ -19,12 +22,14 @@
   top: -10%;
 }
 .quote-img {
+  position: relative;
+  top: -15%;
   height: 15rem;
   width: 15rem;
   border: 2px solid red;
   border-radius: 20px;
   padding: 2rem;
-  margin-left: 2rem;
+  margin-left: 8rem;
 }
 
 .quote-img:hover {
@@ -39,7 +44,10 @@
     overflow-y: hidden;
   }
   .desc {
-    margin: 2rem 2rem;
+    margin: 3rem;
     font-size: 1rem;
+  }
+  .quote-img {
+    margin: 0;
   }
 }
