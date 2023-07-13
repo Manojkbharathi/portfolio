@@ -74,15 +74,10 @@ export const projects = [
 
 export const javaScript = [
   {
-    links: 'https://manojkbharathi.github.io/memory-game/',
-
-    links: 'https://manojkbharathi.github.io/find-triangle-type/',
-    links: 'https://manojkbharathi.github.io/seat-booking/',
-
-    links: 'https://manojkbharathi.github.io/product-system/',
-    links: 'https://manojkbharathi.github.io/snake-game/',
-    links: 'https://manojkbharathi.github.io/model/',
-    links: 'https://manojkbharathi.github.io/kanban-board/',
-    links: 'https://manojkbharathi.github.io/pig-game/',
+    links: '#',
+  },
+  {
+    memoryGame: 'https://github.com/Manojkbharathi/memory-game',
+    
   },
 ];
