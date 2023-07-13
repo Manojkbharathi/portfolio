@@ -13,7 +13,6 @@ const Skills = () => {
               <div className='skill-links'>
                 <a href={links}>li</a>
                 <a href={memory}>Memory Game</a>
-                <a href={rps}></a>
               </div>
             </div>
           ))}
