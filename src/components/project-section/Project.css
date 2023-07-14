@@ -7,6 +7,8 @@
 
   flex-direction: column;
   margin: 1rem 0;
+  position: relative;
+  top: 5rem;
 }
 .slick-slide {
   display: flex;
@@ -36,7 +38,6 @@
 .portfolio-title {
   color: rgb(86, 185, 200);
   position: relative;
-  top: -14%;
   font-size: 3rem;
 }
 .project-title {
@@ -61,7 +62,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 950px) {
   .slide-image {
     width: 13rem;
     height: 8rem;

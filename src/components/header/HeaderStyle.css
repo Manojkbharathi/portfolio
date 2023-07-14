@@ -31,7 +31,6 @@
     flex-direction: row-reverse;
   }
   .profile {
-    opacity: 80%;
     max-width: 30%;
   }
 }

@@ -3,6 +3,7 @@ import IMG2 from '../src/components/assets/review.png';
 import IMG3 from '../src/components/assets/filter.png';
 
 import IMG4 from '../src/components/assets/accordion.png';
+import js from '../src/components/assets/js-logo.webp';
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
   { id: 2, href: '#about', text: 'about' },
@@ -74,10 +75,19 @@ export const projects = [
 
 export const javaScript = [
   {
-    links: '#',
+    iconImage: js,
+  },
+
+  {
+    id: 1,
+    live: 'https://manojkbharathi.github.io/snake-game/',
+    git: 'https://github.com/Manojkbharathi/exchange-rate-calculator',
+    text: 'snake',
   },
   {
-    memoryGame: 'https://github.com/Manojkbharathi/memory-game',
-    
+    id: 2,
+    live: 'https://manojkbharathi.github.io/drink-water-app/',
+    git: 'https://github.com/Manojkbharathi/drink-water-app',
+    text: 'water',
   },
 ];
