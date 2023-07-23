@@ -44,18 +44,17 @@ export const projects = [
     image: IMG3,
 
     title: 'Filter',
-    quote:
-      'Drinking vinegar polaroid street art echo park, actually semiotics next level butcher master cleanse hammock flexitarian ethical paleo.',
+    quote: `
+This React menu card features "useState" hook for dynamic state management, allowing an interactive menu. Additionally, a "remove duplicates" function ensures a clean and organized menu by filtering out any duplicate items. The result is a user-friendly interface with a concise list of distinct and delicious offerings.`,
     github: 'https://github.com/Manojkbharathi/react-filter',
-    LiveDemo: 'https://regal-beijinho-938b84.netlify.app/',
+    LiveDemo: 'https://melodic-sunburst-a2dca3.netlify.app/',
   },
   {
     id: 4,
     image: IMG4,
-    name: 'susan andersen',
-    title: 'the boss',
-    quote:
-      'Marfa af yr 3 wolf moon kogi, readymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag. ',
+    title: 'React accordion',
+    quote: `
+In this React accordion component, when the user clicks the "+" button, it reveals the corresponding answer, allowing for an interactive and user-friendly way to access information. The state management, achieved through "useState," ensures smooth toggling of content visibility, enhancing the overall user experience. `,
     github: 'https://github.com/Manojkbharathi/react-accordion',
     LiveDemo: 'https://starlit-jelly-5b6e03.netlify.app/',
   },
@@ -65,7 +64,7 @@ export const projects = [
 
     title: 'Reviews',
     quote:
-      " dynamic Reviews web application, powered by React's useState hook and a cleverly implemented random function. expand extra one line",
+      " Dynamic Reviews web application, powered by React's useState hook and a cleverly implemented random function. expand extra one line",
     github: 'https://github.com/Manojkbharathi/reviews',
     LiveDemo: 'https://tubular-dasik-4f435f.netlify.app',
   },
