@@ -16,10 +16,9 @@ const Contacts = () => {
   }
 
   return (
-    <div className='contact-container'>
-      <h2>Contact me</h2>
-      <p>Get in touch</p>
-      <div className='contact' id='contact'>
+    <div className='contact' id='contact'>
+      <h2 className='title-contact'>Contact me</h2>
+      <div className='contact-container'>
         <div className='total-cards'>
           <article className='card'>
             <h3 className='title'>E-mail</h3>

@@ -1,11 +1,9 @@
-.contact-container {
+.contact {
   text-align: center;
   gap: 2rem;
-  display: flex;
-  flex-direction: column;
 }
 
-.contact {
+.contact-container {
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -13,6 +11,10 @@
   justify-content: center;
   gap: 15rem;
   text-align: center;
+}
+.title-contact {
+  font-size: 2rem;
+  color: burlywood;
 }
 .card {
   background-color: rgb(33, 94, 102);
@@ -75,9 +77,13 @@ textarea {
 }
 
 @media screen and (max-width: 900px) {
-  .contact {
+  .contact-container {
     display: flex;
     flex-direction: column;
     gap: 0;
+  }
+  .title-contact {
+    position: relative;
+    top: -3rem;
   }
 }
