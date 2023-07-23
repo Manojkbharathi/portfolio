@@ -1,16 +1,10 @@
 import React from 'react';
 import '../header/HeaderStyle.css';
-import Profile from '../assets/20230626_092109.png';
+import Profile from '../assets/WhatsApp Image 2023-07-23 at 16.19.10.jpg';
 import cv from '../assets/pdf/manojbharathi.pdf';
 const Header = () => {
   return (
     <div>
-      <h1>
-        <span>M</span>
-        <span>A</span>
-        <span>N</span>
-        <span>O</span>
-      </h1>
       <h2 className='head'>{'<Hello world/>'}</h2>
       <div className='home' id='home'>
         <a href='#contact' className='scroll__down'>
