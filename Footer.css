@@ -1,0 +1,32 @@
+.footer {
+  background: #327aad;
+  background-image: linear-gradient(black, #327aad);
+
+  font-size: 0.9rem;
+  margin-top: 7rem;
+  padding: 3rem 0;
+  text-align: center;
+  height: 70vh;
+}
+
+.my-name {
+  color: rgba(5, 164, 196, 0.929);
+}
+.linked-icon {
+  font-size: 4rem;
+  color: rgb(71, 23, 23);
+  position: relative;
+  bottom: -11rem;
+}
+.linked-icon:hover {
+  color: red;
+}
+.insta-icon {
+  font-size: 4rem;
+  color: rgb(71, 23, 23);
+  position: relative;
+  bottom: -11rem;
+}
+.insta-icon:hover {
+  color: red;
+}

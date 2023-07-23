@@ -7,6 +7,7 @@ import css from '../assets/css.svg';
 import tailwind from '../assets/tail.svg';
 import node from '../assets/node.svg';
 import html from '../assets/html.png';
+import js from '../assets/js-logo.webp';
 
 const Skills = () => {
   return (
@@ -18,30 +19,21 @@ const Skills = () => {
         </p>
         <div className='hover-container'>
           <p className='animate-character'>javaScript</p>
-
-          {javaScript.map(({ id, live, git, iconImage, text }) => (
-            <div className='hide'>
-              <img className='icon-img' src={iconImage} alt='' />
-              <ul className='skill-links'>
-                <li>
-                  <h3 className='title'>snake</h3>
-                  <a href={live} className='live'>
-                    <HiOutlineExternalLink />
-                  </a>
-                  <a href={git} className='git'>
-                    <AiFillGithub />
-                  </a>
-                  <h3 className='title'>snake</h3>
-                  <a href={live} className='live'>
-                    <HiOutlineExternalLink />
-                  </a>
-                  <a href={git} className='git'>
-                    <AiFillGithub />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          ))}
+          <img src={js} alt='' className='icon-img' />
+          <div className='skill-links'>
+            <h2 className='title'>JavaScript projects</h2>
+            {Object.values(javaScript).map(({ id, git, live, text }) => (
+              <div key={id}>
+                <h3 className='type'>{text}</h3>
+                <a href={live} className='live'>
+                  <HiOutlineExternalLink />
+                </a>
+                <a href={git} className='live'>
+                  <AiFillGithub />
+                </a>
+              </div>
+            ))}
+          </div>
         </div>
 
         <p>

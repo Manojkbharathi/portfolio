@@ -8,7 +8,7 @@ const Footer = () => {
       <div className='footer-section'>
         <h1 className='my-name'>Manoj bharathi</h1>
         <div className='btn-section'>
-          <button className='btn instagram-icon'>
+          <button className='instagram-icon'>
             <a
               href='https://www.instagram.com/bharathi_kannimuthu/'
               className='icon'
@@ -16,7 +16,7 @@ const Footer = () => {
               <AiFillInstagram />
             </a>
           </button>
-          <button className='btn linked-icon'>
+          <button className=' linked-icon'>
             <a
               href='https://www.linkedin.com/feed/?trk=sem-ga_campid.14650114788_asid.150089839322_crid.656569072777_kw.www%20linkedin_d.c_tid.kwd-2246447582_n.g_mt.e_geo.9050527'
               className='icon'
@@ -24,7 +24,7 @@ const Footer = () => {
               <AiFillLinkedin />
             </a>
           </button>
-          <button className='btn git-icon'>
+          <button className=' git-icon'>
             <a href='https://github.com/Manojkbharathi' className='icon'>
               <AiFillGithub />
             </a>

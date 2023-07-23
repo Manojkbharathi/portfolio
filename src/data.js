@@ -3,7 +3,7 @@ import IMG2 from '../src/components/assets/review.png';
 import IMG3 from '../src/components/assets/filter.png';
 
 import IMG4 from '../src/components/assets/accordion.png';
-import js from '../src/components/assets/js-logo.webp';
+import IMG5 from '../src/components/assets/rcp.png';
 export const pageLinks = [
   { id: 1, href: '#home', text: 'home' },
   { id: 2, href: '#about', text: 'about' },
@@ -25,26 +25,25 @@ export const projects = [
 
     title: 'Todo-list',
     quote:
-      'Fingerstache umami squid, kinfolk subway tile selvage tumblr man braid viral kombucha gentrify fanny pack raclette pok pok mustache.',
+      'Explore my ToDo List web application showcasing full CRUD (Create, Read, Update, Delete) functionality. Experience a seamless user interface, enabling you to efficiently manage and organize your tasks with ease.',
     github: 'https://github.com/Manojkbharathi/react-todo',
     LiveDemo: 'https://dashing-buttercream-e95b71.netlify.app',
   },
+
   {
     id: 2,
-    image: IMG2,
-
-    title: 'regular guy',
+    image: IMG5,
+    title: 'Rock-Paper-Scissors',
     quote:
-      'Gastropub sustainable tousled prism occupy. Viral XOXO roof party brunch actually, chambray listicle microdosing put a bird on it paleo subway tile squid umami.',
-    github: 'https://github.com/Manojkbharathi/reviews',
-    LiveDemo: 'https://tubular-dasik-4f435f.netlify.app',
+      " A  Rock-Paper-Scissors game built using React, where players can challenge the computer's randomly generated choices.",
+    github: 'https://github.com/Manojkbharathi/rock-paper-scissors-react',
+    LiveDemo: 'https://silver-truffle-b3e135.netlify.app/',
   },
   {
     id: 3,
     image: IMG3,
 
-    name: 'peter smith',
-    title: 'product designer',
+    title: 'Filter',
     quote:
       'Drinking vinegar polaroid street art echo park, actually semiotics next level butcher master cleanse hammock flexitarian ethical paleo.',
     github: 'https://github.com/Manojkbharathi/react-filter',
@@ -62,32 +61,107 @@ export const projects = [
   },
   {
     id: 5,
-    image:
-      'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
-    name: 'susan andersen',
-    title: 'the boss',
+    image: IMG2,
+
+    title: 'Reviews',
     quote:
-      'Marfa af yr 3 wolf moon kogi, readymade distillery asymmetrical seitan kale chips fingerstache cloud bread mustache twee messenger bag. ',
-    github: '',
-    LiveDemo: '',
+      " dynamic Reviews web application, powered by React's useState hook and a cleverly implemented random function. expand extra one line",
+    github: 'https://github.com/Manojkbharathi/reviews',
+    LiveDemo: 'https://tubular-dasik-4f435f.netlify.app',
   },
 ];
 
-export const javaScript = [
-  {
-    iconImage: js,
-  },
-
-  {
+export const javaScript = {
+  1: {
     id: 1,
-    live: 'https://manojkbharathi.github.io/snake-game/',
-    git: 'https://github.com/Manojkbharathi/exchange-rate-calculator',
-    text: 'snake',
+    text: 'Form validation',
+    git: 'https://github.com/Manojkbharathi/rock-paper-scissor',
+    live: ' https://manojkbharathi.github.io/rock-paper-scissor/',
   },
-  {
+
+  2: {
     id: 2,
-    live: 'https://manojkbharathi.github.io/drink-water-app/',
-    git: 'https://github.com/Manojkbharathi/drink-water-app',
-    text: 'water',
+    text: 'Memory game',
+    git: 'https://github.com/Manojkbharathi/memory-game',
+    live: 'https://manojkbharathi.github.io/memory-game/',
   },
-];
+  3: {
+    id: 3,
+    text: 'Expense tracker',
+    git: 'URL_Thttps://github.com/Manojkbharathi/expense-tracker/settings/pagesO_GITHUB_REPO_2',
+    live: 'https://manojkbharathi.github.io/expense-tracker/',
+  },
+  4: {
+    id: 4,
+    text: 'Drink water remainder',
+    git: 'https://github.com/Manojkbharathi/drink-water-app',
+    live: ' https://manojkbharathi.github.io/drink-water-app/',
+  },
+  5: {
+    id: 5,
+    text: 'Rock paper scissors game',
+    git: 'https://github.com/Manojkbharathi/rock-paper-scissor',
+    live: ' https://manojkbharathi.github.io/rock-paper-scissor/',
+  },
+  6: {
+    id: 6,
+    text: 'Product system - CRUD',
+    git: 'https://github.com/Manojkbharathi/product-system',
+    live: 'https://manojkbharathi.github.io/product-system/',
+  },
+  7: {
+    id: 7,
+    text: 'Find triangle type',
+    git: 'https://github.com/Manojkbharathi/find-triangle-type',
+    live: ' https://manojkbharathi.github.io/find-triangle-type/',
+  },
+  8: {
+    id: 8,
+    text: 'Exchange rate calculator',
+    git: 'https://github.com/Manojkbharathi/exchange-rate-calculator',
+    live: ' https://manojkbharathi.github.io/exchange-rate-calculator/',
+  },
+  9: {
+    id: 9,
+    text: 'Pig Game',
+    git: 'https://github.com/Manojkbharathi/pig-game',
+    live: ' https://manojkbharathi.github.io/pig-game/',
+  },
+
+  10: {
+    id: 10,
+    text: 'Seat booking',
+    git: 'https://github.com/Manojkbharathi/seat-booking',
+    live: 'https://manojkbharathi.github.io/seat-booking/ ',
+  },
+  11: {
+    id: 11,
+    text: 'Snake game',
+    git: 'https://github.com/Manojkbharathi/snake-game',
+    live: ' https://manojkbharathi.github.io/snake-game/',
+  },
+  12: {
+    id: 12,
+    text: 'Cash denomonator',
+    git: 'https://github.com/Manojkbharathi/cash-denominator/settings/pages',
+    live: 'https://github.com/Manojkbharathi/cash-denominator',
+  },
+  13: {
+    id: 13,
+    text: 'Model window',
+    git: 'https://github.com/Manojkbharathi/model',
+    live: ' https://manojkbharathi.github.io/model/',
+  },
+  14: {
+    id: 14,
+    text: 'Captcha generator',
+    git: 'hhttps://github.com/Manojkbharathi/captcha-generator',
+    live: ' https://manojkbharathi.github.io/js-project-assessment-2/',
+  },
+  15: {
+    id: 15,
+    text: 'Kanban board',
+    git: 'https://github.com/Manojkbharathi/kanban-board/settings/pages',
+    live: 'https://manojkbharathi.github.io/kanban-board/',
+  },
+};

@@ -4,11 +4,8 @@
   display: flex;
 
   justify-content: center;
-
   flex-direction: column;
-  margin: 1rem 0;
-  position: relative;
-  top: 5rem;
+  margin: 5rem 0;
 }
 .slick-slide {
   display: flex;
@@ -36,12 +33,12 @@
   background-color: red;
 }
 .portfolio-title {
+  padding-top: 5rem;
   color: rgb(86, 185, 200);
-  position: relative;
   font-size: 3rem;
 }
 .project-title {
-  margin-bottom: 2rem;
+  margin: 2rem;
 }
 .text-color {
   color: rgb(165, 17, 31);
