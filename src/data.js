@@ -87,7 +87,7 @@ export const javaScript = {
   3: {
     id: 3,
     text: 'Expense tracker',
-    git: 'URL_Thttps://github.com/Manojkbharathi/expense-tracker/settings/pagesO_GITHUB_REPO_2',
+    git: 'https://github.com/Manojkbharathi/expense-tracker',
     live: 'https://manojkbharathi.github.io/expense-tracker/',
   },
   4: {
@@ -141,8 +141,8 @@ export const javaScript = {
   },
   12: {
     id: 12,
-    text: 'Cash denomonator',
-    git: 'https://github.com/Manojkbharathi/cash-denominator/settings/pages',
+    text: 'Cash denominator',
+    git: 'https://manojkbharathi.github.io/cash-denominator/',
     live: 'https://github.com/Manojkbharathi/cash-denominator',
   },
   13: {
@@ -154,7 +154,7 @@ export const javaScript = {
   14: {
     id: 14,
     text: 'Captcha generator',
-    git: 'hhttps://github.com/Manojkbharathi/captcha-generator',
+    git: 'https://github.com/Manojkbharathi/captcha-generator',
     live: ' https://manojkbharathi.github.io/js-project-assessment-2/',
   },
   15: {
