@@ -74,8 +74,8 @@ export const javaScript = {
   1: {
     id: 1,
     text: 'Form validation',
-    git: 'https://github.com/Manojkbharathi/rock-paper-scissor',
-    live: ' https://manojkbharathi.github.io/rock-paper-scissor/',
+    git: 'https://github.com/Manojkbharathi/form-validation',
+    live: ' https://manojkbharathi.github.io/form-validation/',
   },
 
   2: {
