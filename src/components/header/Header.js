@@ -9,7 +9,7 @@ const Header = () => {
       <div className='home' id='home'>
         <a href='#contact' className='scroll__down'>
           <hr />
-          Scroll Down
+          Scroll Down---->
         </a>
 
         <img src={Profile} alt='' className='profile' />

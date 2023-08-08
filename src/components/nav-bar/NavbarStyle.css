@@ -57,17 +57,17 @@
   }
   .navbar {
     margin: 0rem;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(198, 174, 174, 0.122);
     width: max-content;
     display: block;
-    padding: 0.7rem 1.7rem;
+    padding: 0.25rem 1.7rem;
     z-index: 2;
     position: fixed;
     left: 50%;
     top: 85%;
     transform: translateX(-50%);
     display: flex;
-    gap: 0.8rem;
+    gap: 3.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
     list-style: none;
@@ -78,10 +78,11 @@
     color: green;
   }
   .nav-link {
-    color: yellow;
+    color: rgb(6, 222, 215);
+    font-size: 2rem;
   }
   .nav-link:hover {
-    color: red;
+    color: rgb(247, 244, 244);
     background-color: rgb(106, 106, 210);
     padding: 0.5rem;
     border-radius: 10px;

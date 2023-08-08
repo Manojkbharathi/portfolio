@@ -73,7 +73,11 @@ button {
   width: 35rem;
   overflow-y: scroll;
 }
-
+.links-container {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
 .hover-container:hover .skill-links {
   display: flex;
   flex-direction: column;

@@ -6,24 +6,25 @@
   padding: 3rem 0;
   text-align: center;
   height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .my-name {
   color: rgba(5, 164, 196, 0.929);
 }
-.btn-section {
-  position: relative;
-  bottom: -10rem;
+.btn-section-footer {
+  margin-top: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 .linked-icon {
   font-size: 2rem;
 }
-.linked-icon:hover {
-}
+
 .instagram-icon {
   font-size: 2rem;
 }

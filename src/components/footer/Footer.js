@@ -7,7 +7,8 @@ const Footer = () => {
     <div className='footer' id='footer'>
       <div className='footer-section'>
         <h1 className='my-name'>Manoj bharathi</h1>
-        <div className='btn-section'>
+
+        <div className='btn-section-footer'>
           <button className='instagram-icon'>
             <a
               href='https://www.instagram.com/bharathi_kannimuthu/'
@@ -30,6 +31,11 @@ const Footer = () => {
             </a>
           </button>
         </div>
+      </div>
+      <div>
+        <p className='copy'>
+          All rights are reserved by Manojbharathi © [2023].
+        </p>
       </div>
     </div>
   );

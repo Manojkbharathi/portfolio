@@ -23,14 +23,16 @@ const Skills = () => {
           <div className='skill-links'>
             <h2 className='title'>JavaScript projects</h2>
             {Object.values(javaScript).map(({ id, git, live, text }) => (
-              <div key={id}>
+              <div className='links-container' key={id}>
                 <h3 className='type'>{text}</h3>
-                <a href={live} className='live'>
-                  <HiOutlineExternalLink />
-                </a>
-                <a href={git} className='live'>
-                  <AiFillGithub />
-                </a>
+                <div>
+                  <a href={live} className='live'>
+                    <HiOutlineExternalLink />
+                  </a>
+                  <a href={git} className='live'>
+                    <AiFillGithub />
+                  </a>
+                </div>
               </div>
             ))}
           </div>

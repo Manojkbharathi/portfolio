@@ -1,18 +1,21 @@
 .about {
   width: 100vw;
   height: 100vh;
-  text-align: center;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-right: 3rem;
   overflow-x: hidden;
 }
 .desc {
   font-size: 20px;
-
-  margin: 3rem 10rem;
+  word-spacing: 2px;
+  color: rgb(12, 208, 204);
+  padding: 3rem;
+  width: 98vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
 }
 
 .about {

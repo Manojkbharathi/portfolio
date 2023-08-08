@@ -4,18 +4,22 @@ import IMG3 from '../src/components/assets/filter.png';
 
 import IMG4 from '../src/components/assets/accordion.png';
 import IMG5 from '../src/components/assets/rcp.png';
+import { AiFillHome, AiFillMessage } from 'react-icons/ai';
+import { RiContactsFill } from 'react-icons/ri';
+import { BiBook } from 'react-icons/bi';
+import { MdMiscellaneousServices } from 'react-icons/md';
 export const pageLinks = [
-  { id: 1, href: '#home', text: 'home' },
-  { id: 2, href: '#about', text: 'about' },
-  { id: 3, href: '#skill', text: 'skill' },
+  { id: 1, href: '#home', text: <AiFillHome /> },
+  { id: 2, href: '#about', text: <RiContactsFill /> },
+  { id: 3, href: '#skill', text: <BiBook /> },
 
-  { id: 4, href: '#projects', text: 'projects' },
-  { id: 5, href: '#contact', text: 'contact' },
+  { id: 4, href: '#projects', text: <MdMiscellaneousServices /> },
+  { id: 5, href: '#contact', text: <AiFillMessage /> },
 ];
 
 export const details = [
   {
-    desc: " I recently graduated with a Bachelor's degree as a B.sc.Apparel Merchandising in 2021 and also I'm currently pursuing my React Js web developer course. I am now looking to launch my career as a React Js Developer.while my training in the React Js has equipped me with the ability to develop innovative web applications.",
+    desc: "I am a Front-End Developer, and I am hands-on in creating websites and web applications. With my skills in HTML, CSS,  JavaScript and react js.  In 2021, I graduated with a Bachelor's degree in Apparel Merchandising, which gave me valuable insights into consumer behavior and design aesthetics. Currently, I am further enhancing my expertise by pursuing a web development course, where I focus on building innovative web applications. I take pride in my ability to work effectively with both technical and non-technical teams. Continuously striving to improve my knowledge and skills, I stay updated with the latest industry trends and best practices. As a Front-End Developer, I find excitement in contributing to impactful projects that benefit both users and businesses.",
   },
 ];
 export const projects = [
@@ -142,7 +146,7 @@ export const javaScript = {
   12: {
     id: 12,
     text: 'Cash denominator',
-    git: 'https://manojkbharathi.github.io/cash-denominator/',
+    git: ' https://manojkbharathi.github.io/cash-denominator/',
     live: 'https://github.com/Manojkbharathi/cash-denominator',
   },
   13: {
@@ -154,8 +158,8 @@ export const javaScript = {
   14: {
     id: 14,
     text: 'Captcha generator',
-    git: 'https://github.com/Manojkbharathi/captcha-generator',
-    live: ' https://manojkbharathi.github.io/js-project-assessment-2/',
+    git: 'https://manojkbharathi.github.io/captcha-generator/',
+    live: 'https://github.com/Manojkbharathi/captcha-generator',
   },
   15: {
     id: 15,
