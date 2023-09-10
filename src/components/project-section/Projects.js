@@ -4,7 +4,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
 import React from 'react';
 import { projects } from '../../data';
-
+import { bigProjects } from '../../data';
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
@@ -83,6 +83,17 @@ const SimpleSlider = () => {
         <span className='text-color'>o</span>
       </h2>
 
+      <div>
+        {bigProjects.map(({ id, image, title, git, live }) => (
+          <div key={id}>
+            <h2>{title}</h2>
+            <img className='slide-image' src={image} alt='' />
+            <a href={live}>Live</a>
+
+            <a href={git}>Git hub</a>
+          </div>
+        ))}
+      </div>
       <Slider {...settings}>
         {projects.map(({ image, quote, github, LiveDemo, title }) => (
           <div className='slide'>

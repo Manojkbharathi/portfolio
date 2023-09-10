@@ -4,6 +4,7 @@ import IMG3 from '../src/components/assets/filter.png';
 
 import IMG4 from '../src/components/assets/accordion.png';
 import IMG5 from '../src/components/assets/rcp.png';
+import food from './components/assets/food .png';
 import { AiFillHome, AiFillMessage } from 'react-icons/ai';
 import { RiContactsFill } from 'react-icons/ri';
 import { BiBook } from 'react-icons/bi';
@@ -168,3 +169,26 @@ export const javaScript = {
     live: 'https://manojkbharathi.github.io/kanban-board/',
   },
 };
+export const bigProjects = [
+  {
+    id: 1,
+    title: 'Food delivery app',
+    image: food,
+    live: 'https://spiffy-beijinho-9d9942.netlify.app/',
+    git: 'https://github.com/Manojkbharathi/food-delivery',
+  },
+  {
+    id: 2,
+    title: 'Food delivery app',
+    image: food,
+    live: 'https://spiffy-beijinho-9d9942.netlify.app/',
+    git: 'https://github.com/Manojkbharathi/food-delivery',
+  },
+  {
+    id: 3,
+    title: 'Food delivery ',
+    image: food,
+    live: 'https://spiffy-beijinho-9d9942.netlify.app/',
+    git: 'https://github.com/Manojkbharathi/food-delivery',
+  },
+];
