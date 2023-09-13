@@ -5,10 +5,12 @@
   margin-top: 3rem;
   padding: 3rem 0;
   text-align: center;
-  height: 70vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  position: relative;
+  top: 60rem;
 }
 
 .my-name {

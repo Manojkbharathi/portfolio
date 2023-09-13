@@ -1,5 +1,5 @@
 .skill {
-  height: 80vh;
+  height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -22,7 +22,7 @@
   color: rgb(246, 0, 0);
 }
 .skill-container {
-  width: 80vw;
+  width: 100vw;
   border-radius: 12px;
   color: rgb(6, 127, 135);
   text-align: center;
@@ -111,7 +111,7 @@ button {
 }
 @media screen and (max-width: 1092px) {
   .skill-container {
-    width: 80vw;
+    width: 100vw;
     height: 100vh;
     border-radius: 12px;
     color: rgb(6, 127, 135);
@@ -130,5 +130,9 @@ button {
     font-size: 1rem;
     display: flex;
     justify-content: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .skill {
   }
 }

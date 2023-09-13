@@ -11,8 +11,6 @@
   color: red;
   display: flex;
   justify-content: center;
-  position: relative;
-  bottom: -5rem;
 }
 .name {
   text-align: center;

@@ -2,10 +2,14 @@
   width: 80vw;
   height: 100vh;
   display: flex;
-
+  position: relative;
+  top: 12rem;
   justify-content: center;
   flex-direction: column;
   margin: 5rem 0;
+  padding-bottom: 5rem;
+  text-align: center;
+  overflow-wrap: hidden;
 }
 .slick-slide {
   display: flex;
@@ -15,6 +19,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* width: 23rem;
+  height: 30rem; */
+  margin: 1rem;
 }
 .slide-image {
   width: 18rem;
@@ -22,7 +29,7 @@
   border-radius: 20px;
 }
 .project-desc {
-  margin: 3rem;
+  margin: 2rem;
   word-wrap: break-word;
 }
 
@@ -33,36 +40,103 @@
   background-color: red;
 }
 .portfolio-title {
-  padding-top: 5rem;
   color: rgb(86, 185, 200);
   font-size: 3rem;
+  text-align: center;
+  position: relative;
+  top: -5rem;
 }
-.project-title {
-  margin: 2rem;
-}
+
 .text-color {
   color: rgb(165, 17, 31);
 }
 .live-link {
-  background-color: skyblue;
-  padding: 1rem 2rem;
+  font-size: 2rem;
+
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  color: rgb(36, 168, 191);
 }
 .live-link:hover {
-  background-color: red;
+  color: rgb(218, 49, 12);
 }
 .btn-container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 100%;
+}
+.big-project-container {
+  top: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+.big-content {
+  display: flex;
+  gap: 2rem 3rem;
+  flex-wrap: wrap;
+  position: relative;
+  top: -3rem;
+}
+.project-container:hover {
+  background-color: rgb(14, 86, 88);
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #1f7b6a;
+}
+.project-container a {
+  margin: 1rem;
+}
+.big-image {
+  width: 18rem;
+  height: 13rem;
+  border-radius: 20px;
+  margin: 2rem 0 2rem 0;
+}
 @media screen and (max-width: 950px) {
+  .big-image {
+    width: 13rem;
+    height: 9rem;
+    border-radius: 20px;
+    margin: 2rem 0 2rem 0;
+  }
+}
+@media screen and (max-width: 750px) {
   .slide-image {
     width: 13rem;
     height: 8rem;
     border-radius: 20px;
+  }
+  .big-project-container {
+    height: 100vh;
+    position: relative;
+  }
+}
+@media screen and (max-width: 600px) {
+  .projects-container {
+    display: flex;
+  }
+  .slick-slider {
+    position: relative;
+    top: 29rem;
+  }
+  .big-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+  .big-project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .big-image {
+    width: 10rem;
+    height: 7rem;
+    border-radius: 20px;
+  }
+  .portfolio-title {
+    font-size: 1rem;
   }
 }

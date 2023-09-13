@@ -22,7 +22,7 @@ const Header = () => {
             </a>
 
             <a href='#contact' className='contact-path'>
-              Let'Talk
+              Let's Talk
             </a>
           </div>
         </div>

@@ -5,6 +5,8 @@ import Slider from 'react-slick';
 import React from 'react';
 import { projects } from '../../data';
 import { bigProjects } from '../../data';
+import { HiOutlineExternalLink } from 'react-icons/hi';
+import { AiFillGithub } from 'react-icons/ai';
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
@@ -77,22 +79,32 @@ const SimpleSlider = () => {
   };
   return (
     <div className='projects-container' id='projects'>
-      <h2 className='portfolio-title'>
-        P<span className='text-color'>o</span>rtf
-        <span className='text-color'>o</span>li
-        <span className='text-color'>o</span>
-      </h2>
-
-      <div>
-        {bigProjects.map(({ id, image, title, git, live }) => (
-          <div key={id}>
-            <h2>{title}</h2>
-            <img className='slide-image' src={image} alt='' />
-            <a href={live}>Live</a>
-
-            <a href={git}>Git hub</a>
-          </div>
-        ))}
+      <div className='big-project-container'>
+        <h2 className='portfolio-title'>
+          P<span className='text-color'>o</span>rtf
+          <span className='text-color'>o</span>li
+          <span className='text-color'>o</span>
+        </h2>
+        <div className='big-content'>
+          {' '}
+          {bigProjects.map(({ id, image, title, git, live }) => (
+            <div key={id} className='big-project'>
+              <div className='project-container'>
+                <h2>{title}</h2>
+                <img className='big-image' src={image} alt='' />
+                <div>
+                  {' '}
+                  <a className='live-link' href={live}>
+                    <HiOutlineExternalLink />
+                  </a>
+                  <a className='live-link' href={git}>
+                    <AiFillGithub />
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
       <Slider {...settings}>
         {projects.map(({ image, quote, github, LiveDemo, title }) => (
@@ -103,10 +115,14 @@ const SimpleSlider = () => {
               <p className='project-desc'>{quote}</p>
               <div className='btn-container'>
                 <a href={LiveDemo}>
-                  <button className='live-link'>LiveDemo</button>
+                  <button className='live-link'>
+                    <HiOutlineExternalLink />
+                  </button>
                 </a>
                 <a href={github}>
-                  <button className='live-link'>Github</button>
+                  <button className='live-link'>
+                    <AiFillGithub />
+                  </button>
                 </a>
               </div>
             </div>
