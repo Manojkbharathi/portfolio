@@ -102,17 +102,21 @@ const SimpleSlider = () => {
                   </a>
                 </div>
               </div>
+              <div class='hide'>Click link</div>
             </div>
           ))}
         </div>
       </div>
+
       <Slider {...settings}>
         {projects.map(({ image, quote, github, LiveDemo, title }) => (
           <div className='slide'>
             <div className='each'>
-              <h2 className='project-title'>{title}</h2>
-              <img className='slide-image' src={image} alt='' />
-              <p className='project-desc'>{quote}</p>
+              <div>
+                <h2 className='project-title'>{title}</h2>
+                <img className='slide-image' src={image} alt='' />
+                <p className='project-desc'>{quote}</p>
+              </div>
               <div className='btn-container'>
                 <a href={LiveDemo}>
                   <button className='live-link'>

@@ -21,7 +21,7 @@ const Skills = () => {
           <p className='animate-character'>javaScript</p>
           <img src={js} alt='' className='icon-img' />
           <div className='skill-links'>
-            <h2 className='title'>JavaScript projects</h2>
+            <h2 className='hover-title'>JavaScript projects</h2>
             {Object.values(javaScript).map(({ id, git, live, text }) => (
               <div className='links-container' key={id}>
                 <h3 className='type'>{text}</h3>

@@ -84,6 +84,8 @@
   .nav-link:hover {
     color: rgb(247, 244, 244);
     background-color: rgb(106, 106, 210);
+    transition: 0.3s;
+
     padding: 0.5rem;
     border-radius: 10px;
   }

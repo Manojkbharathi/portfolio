@@ -52,7 +52,7 @@ export const projects = [
 
     title: 'Filter',
     quote: `
-This React menu card features "useState" hook for dynamic state management, allowing an interactive menu. Additionally, a "remove duplicates" function ensures a clean and organized menu by filtering out any duplicate items. The result is a user-friendly interface with a concise list of distinct and delicious offerings.`,
+This React menu card features "useState" hook for dynamic state management, allowing an interactive menu. Additionally, a "remove duplicates" function ensures a clean and organized menu by filtering out any duplicate items.`,
     github: 'https://github.com/Manojkbharathi/react-filter',
     LiveDemo: 'https://melodic-sunburst-a2dca3.netlify.app/',
   },
@@ -61,7 +61,7 @@ This React menu card features "useState" hook for dynamic state management, allo
     image: IMG4,
     title: 'React accordion',
     quote: `
-In this React accordion component, when the user clicks the "+" button, it reveals the corresponding answer, allowing for an interactive and user-friendly way to access information. The state management, achieved through "useState," ensures smooth toggling of content visibility, enhancing the overall user experience. `,
+In this React accordion component, when the user clicks the "+" button, it reveals the corresponding answer, allowing for an interactive and user-friendly way to access information.  `,
     github: 'https://github.com/Manojkbharathi/react-accordion',
     LiveDemo: 'https://starlit-jelly-5b6e03.netlify.app/',
   },
@@ -174,21 +174,21 @@ export const javaScript = {
 export const bigProjects = [
   {
     id: 1,
-    title: 'Food delivery app',
+    title: 'Food delivery App',
     image: food,
     live: 'https://sparkly-maamoul-c2e2b6.netlify.app/',
     git: 'https://github.com/Manojkbharathi/food-delivery',
   },
   {
     id: 2,
-    title: 'E-commerce app',
+    title: 'E-commerce App',
     image: com,
     live: 'https://silver-platypus-c72db6.netlify.app/',
     git: 'https://github.com/Manojkbharathi/e-commerce',
   },
   {
     id: 3,
-    title: 'Weather API',
+    title: 'Weather APP',
     image: api,
     live: 'https://spiffy-beijinho-9d9942.netlify.app/',
     git: 'https://github.com/Manojkbharathi/weather-app',

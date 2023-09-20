@@ -13,13 +13,13 @@
   color: aqua;
   margin: 3rem;
 }
-.title {
-  color: aqua;
+.hover-title {
+  color: rgb(241, 11, 23);
   margin: 1rem;
   text-decoration: underline;
 }
 .type {
-  color: rgb(246, 0, 0);
+  color: rgb(0, 148, 246);
 }
 .skill-container {
   width: 100vw;
