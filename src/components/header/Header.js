@@ -2,7 +2,7 @@ import React from 'react';
 import '../header/HeaderStyle.css';
 import Profile from '../assets/WhatsApp Image 2023-07-23 at 16.19.10.jpg';
 import { AiFillInstagram, AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
-import cv from '../assets/pdf/manojbharathi.pdf';
+import cv from '../assets/pdf/my resume.pdf';
 const Header = () => {
   return (
     <div>
